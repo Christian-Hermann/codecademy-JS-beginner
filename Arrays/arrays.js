@@ -39,3 +39,5 @@ groceryList.unshift("popcorn");
 const pastaIndex = groceryList.indexOf("pasta");
 
 console.log(pastaIndex);
+
+// Arrays and Functions
