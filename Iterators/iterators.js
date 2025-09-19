@@ -57,3 +57,50 @@ const bigNumbers = [100, 200, 300, 400, 500];
 const smallNumbers = bigNumbers.map((item) => {
   return item / 100;
 });
+
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+// The .filter() Method
+// Call .filter() on randomNumbers below
+const smallNumbers = randomNumbers.filter((nums) => {
+  return nums < 250;
+});
+
+const favoriteWords = [
+  "nostalgia",
+  "hyperbole",
+  "fervent",
+  "esoteric",
+  "serene",
+];
+
+// Call .filter() on favoriteWords below
+const longFavoriteWords = favoriteWords.filter((word) => {
+  return word.length > 7;
+});
+
+// The .findIndex() Method
+const animals = [
+  "hippo",
+  "tiger",
+  "lion",
+  "seal",
+  "cheetah",
+  "monkey",
+  "salamander",
+  "elephant",
+];
+
+const foundAnimal = animals.findIndex((item) => {
+  return item === "elephant";
+});
+
+// console.log(foundAnimal)
+// console.log(animals[7])
+
+const startsWithS = animals.findIndex((item) => {
+  return item[0] === "s";
+});
+
+// console.log(startsWithS)
+// console.log(animals[3])
