@@ -104,3 +104,5 @@ const startsWithS = animals.findIndex((item) => {
 
 // console.log(startsWithS)
 // console.log(animals[3])
+
+// The .reduce() Method
